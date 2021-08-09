@@ -161,12 +161,11 @@ body {
 }
 
 nav {
-	top: 15%;
   text-align: center;
   background: rgba(0, 0, 0, 0.75);
   position: fixed;
   z-index: 100;
-  height: 90%;
+  height: 100%;
   left: 0;
   width: 15%;
   font-weight: 300;
@@ -664,8 +663,7 @@ nav a::before {
   nav {
     top: 0vh;
     height: 100px;
-    width: 85vw;
-    margin-left: 15vw;
+    width: 100vw;
   }
   nav ul {
     flex-direction: row;
