@@ -386,7 +386,7 @@ nav a::before {
   overflow: hidden;
 }
 .slide-caption {
-  text-align: right;
+  text-align: left;
   right: 30px;
   position: absolute;
   top: 50%;
