@@ -2,6 +2,7 @@ html{
     font-size: 10px;
     font-family: Dirooz;
     padding: 0;
+    scroll-behavior: smooth;
 }
 
 body{
@@ -82,6 +83,7 @@ body{
     height: 10%;
     position: absolute;
     bottom: 0;
+    animation: heartbeat 1s infinite;
 }
 
 #top-nav{
@@ -126,6 +128,34 @@ body{
     #top-nav ul li.right {background-color: white;float: none;}
     #top-nav ul li.right a {color: #111111;font-weight: bold}
     #top-nav ul  {display: flex;flex-direction: column-reverse; }
+}
+
+@keyframes heartbeat
+{
+    0%
+    {
+        transform: scale( .75 );
+    }
+    20%
+    {
+        transform: scale( 1 );
+    }
+    40%
+    {
+        transform: scale( .75 );
+    }
+    60%
+    {
+        transform: scale( 1 );
+    }
+    80%
+    {
+        transform: scale( .75 );
+    }
+    100%
+    {
+        transform: scale( .75 );
+    }
 }
 
 @font-face {
