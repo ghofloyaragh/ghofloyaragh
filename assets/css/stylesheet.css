@@ -166,6 +166,7 @@ body{
     #top-nav ul li.right {background-color: white;float: none;}
     #top-nav ul li.right a {color: #111111;font-weight: bold}
     #top-nav ul  {display: flex;flex-direction: column-reverse; }
+    #contact #p-container p {font-size: 4vw}
 }
 
 @keyframes heartbeat
