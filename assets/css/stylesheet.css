@@ -51,8 +51,44 @@ body{
 }
 
 
-#background-bottom{
-    background-color: darkgreen;
+#contact{
+    background-color: black;
+    border-top: 3px solid #111111;
+    height: 50%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    /*justify-content: space-between;*/
+
+}
+#contact #p-container{
+    flex-grow: 1;
+    /*width:40% ;*/
+    /*height: 40%;*/
+    /*flex-basis: 40%;*/
+    margin: 2rem;
+    min-width: 40%;
+
+
+}
+
+#contact #p-container p{
+    color: white;
+    text-align: right;
+    font-size: 2.5vw;
+    width: 100%;
+}
+
+
+#contact #map-container{
+    flex-grow: 1;
+    /*flex-basis: 40%;*/
+    margin: 2rem;
+}
+
+#contact #map-container iframe{
+    width: 100%;
 }
 
 #products-grid{
@@ -123,6 +159,8 @@ body{
     background-color: #111;
 
 }
+
+
 @media screen and (max-width: 600px) {
     #top-nav ul li {float: none;}
     #top-nav ul li.right {background-color: white;float: none;}
@@ -132,30 +170,12 @@ body{
 
 @keyframes heartbeat
 {
-    0%
-    {
-        transform: scale( .75 );
-    }
-    20%
-    {
-        transform: scale( 1 );
-    }
-    40%
-    {
-        transform: scale( .75 );
-    }
-    60%
-    {
-        transform: scale( 1 );
-    }
-    80%
-    {
-        transform: scale( .75 );
-    }
-    100%
-    {
-        transform: scale( .75 );
-    }
+    0%{transform: scale( .75 );}
+    20%{transform: scale( 1 );}
+    40%{transform: scale( .75 );}
+    60%{transform: scale( 1 );}
+    80%{transform: scale( .75 );}
+    100%{transform: scale( .75 );}
 }
 
 @font-face {
