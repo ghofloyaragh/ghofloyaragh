@@ -57,9 +57,9 @@ body{
     height: 50%;
     width: 100%;
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: row;
     align-items: center;
-    /*justify-content: space-between;*/
+    justify-content: center;
 
 }
 #contact #p-container{
@@ -68,21 +68,16 @@ body{
     /*height: 40%;*/
     /*flex-basis: 40%;*/
     margin: 2rem;
-    min-width: 40%;
-
-
 }
 
 #contact #p-container p{
     color: white;
     text-align: right;
     font-size: 2vw;
-    width: 100%;
 }
 
 
 #contact #map-container{
-    flex-grow: 1;
     /*flex-basis: 40%;*/
     margin: 2rem;
 
