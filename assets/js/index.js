@@ -1,16 +1,18 @@
-function serveLocalData(){
+function serveLocalData() {
     data.forEach(d => {
-        image = document.createElement("img")
+        let image = document.createElement("img")
         image.src = d.src
         image.alt = d.name
-        image.className="photo"
-        caption = document.createElement("figcaption")
-        text = document.createTextNode(d.description);
-        figure = document.createElement("figure")
+        image.className = "photo"
+        let caption = document.createElement("div")
+        caption.className="caption"
+        caption.innerHTML = d.description
+        let figure = document.createElement("figure")
         figure.appendChild(image)
         figure.appendChild(caption)
         figure.className = "figure"
         document.getElementById("photo-grid").appendChild(figure)
     });
 }
+
 serveLocalData()
