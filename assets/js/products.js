@@ -3,6 +3,7 @@ data = [
         "id": 1,
         "src": "assets/images/1_hayati.png",
         "name": "قفل حیاطی",
+        "city":"کرمان",
         "price-range": "55-120",
         "description": "<b>قفل‌های حیاطی:</b> <br> " +
             "انواع مدل برقی و معمولی" +
@@ -13,6 +14,7 @@ data = [
         "id": 2,
         "src": "assets/images/1_makhfi.png",
         "name": "قفل مخقی",
+        "city":"کرمان",
         "price-range": "55-120",
         "description": "<b>قفل مخفی:</b> <br> " +
             "زبانه‌های معمولی، ۳لول، ۴لول <br>" +
@@ -22,6 +24,7 @@ data = [
         "id": 3,
         "src": "assets/images/1_padlock.png",
         "name": "قفل کتابی",
+        "city":"کرمان",
         "price-range": "55-120",
         "description": "<b>قفل کتابی و آویز:</b> <br> " +
             "جنس‌های آهنی، برنجی، روکش فولاد" +
@@ -31,6 +34,7 @@ data = [
         "id": 4,
         "src": "assets/images/1_ghofl.png",
         "name": "قفل",
+        "city":"کرمان",
         "price-range": "55-120",
         "description": "<b>قفل درب‌های چوبی و آهنی:</b> <br> " +
             "اندازه‌های ۲.۵ تا ۸ سانتیمتر" +
@@ -41,6 +45,7 @@ data = [
         "id": 5,
         "src": "assets/images/1_cylander.png",
         "name": "توپی",
+        "city":"کرمان",
         "price-range": "55-120",
         "description": "<b>انواع توپی درب:</b> <br> " +
             "اندازه‌های ۶ تا ۱۰ سانتیمتر<br>" +
@@ -52,6 +57,7 @@ data = [
         "id": 6,
         "src": "assets/images/1_handle.png",
         "name": "دستگیره",
+        "city":"کرمان",
         "price-range": "55-120",
         "description": "<b>دستگیره درب:</b> <br> " +
             "مدل‌های معمولی و دو‌تیکه‌(رُزت)" +
@@ -62,6 +68,7 @@ data = [
         "id": 7,
         "src": "assets/images/lola_cabinet.png",
         "name": "لولای کابینت",
+        "city":"کرمان",
         "price-range": "55-120",
         "description": "<b>لولای کابینت:</b> <br> " +
             "انواع آرام‌بند و ساده" +
@@ -71,6 +78,7 @@ data = [
         "id": 8,
         "src": "assets/images/screw.png",
         "name": "پیچ",
+        "city":"کرمان",
         "price-range": "55-120",
         "description": "<b>انواع پیچ:</b> <br> " +
             "انواع پیچ‌های mdf در سایزهای مختلف، پیچ فیکس دستگیره و پیچ توپی" +
@@ -80,6 +88,7 @@ data = [
         "id": 9,
         "src": "assets/images/lola.png",
         "name": "لولا",
+        "city":"کرمان",
         "price-range": "55-120",
         "description": "<b>لولای در و کمد:</b> <br> " +
             "انواع لولاهای درب و کمد" +
@@ -90,6 +99,7 @@ data = [
         "id": 10,
         "src": "assets/images/aramband.png",
         "name": "آرام‌بند درب",
+        "city":"کرمان",
         "price-range": "55-120",
         "description": "<b>آرام‌بند درب:</b> <br> " +
             "مناسب درب‌های سبک و سنگین از ۶۰ تا ۱۲۰ کیلوگرم" +
@@ -100,6 +110,7 @@ data = [
         "id": 11,
         "src": "assets/images/reil.png",
         "name": "ریل ساچمه‌ای",
+        "city":"کرمان",
         "price-range": "55-120",
         "description": "<b>ریل ساچمه‌ای:</b> <br> " +
             "در اندازه‌های ۲۵ تا ۶۰ سانتی‌متر" +
@@ -109,6 +120,7 @@ data = [
         "id": 11,
         "src": "assets/images/cabinet_pull.png",
         "name": "دستگیره کابینت",
+        "city":"کرمان",
         "price-range": "55-120",
         "description": "<b>دستگیره کابینت:</b> <br> " +
             "در طرح‌های مختلف و رنگ‌های استیل، طلایی و..." +
