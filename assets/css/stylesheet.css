@@ -51,9 +51,10 @@ body{
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
     position: relative;
-    height: 90%;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
 }
 
 
@@ -111,11 +112,27 @@ body{
 
 #front-image{
     /*width: 100%;*/
-    max-height: 60%;
-    max-width: 50%;
+    max-width: 20%;
     object-fit: cover;
-    margin:auto;
 }
+
+#all{
+    display: flex;
+    flex-direction: column;
+}
+
+#front-container{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+#background-top span{
+    font-size: 6rem;
+}
+
 
 #bottom-arrow{
     width: 100%;
@@ -167,6 +184,9 @@ body{
     #top-nav ul li.right {background-color: white;float: none;}
     #top-nav ul li.right a {color: #111111;font-weight: bold}
     #top-nav ul  {display: flex;flex-direction: column-reverse; }
+    #background-top span{font-size: 2rem}
+    #background-top{flex-direction: column}
+    #front-image{max-width: 40%}
 }
 
 @keyframes heartbeat
