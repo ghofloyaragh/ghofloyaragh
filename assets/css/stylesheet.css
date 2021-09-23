@@ -53,8 +53,7 @@ body{
     align-items: center;
     justify-content: space-around;
     position: relative;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+
 }
 
 
@@ -114,11 +113,13 @@ body{
     /*width: 100%;*/
     max-width: 20%;
     object-fit: cover;
+    margin: 2rem;
 }
 
 #all{
     display: flex;
     flex-direction: column;
+
 }
 
 #front-container{
@@ -129,8 +130,21 @@ body{
     justify-content: center;
 }
 
+#background-top span#title-desc{
+    font-size: 4rem ;
+}
+
+#background-top span#phone-desc{
+    font-size: 3.5rem ;
+}
+
+#background-top span#address-desc{
+    font-size: 3.5rem ;
+}
+
 #background-top span{
     font-size: 6rem;
+    text-align: center;
 }
 
 
@@ -185,6 +199,9 @@ body{
     #top-nav ul li.right a {color: #111111;font-weight: bold}
     #top-nav ul  {display: flex;flex-direction: column-reverse; }
     #background-top span{font-size: 2rem}
+    #background-top span#title-desc{font-size: 1.5rem}
+    #background-top span#phone-desc{font-size: 1rem}
+    #background-top span#address-desc{font-size: 1rem}
     #background-top{flex-direction: column}
     #front-image{max-width: 40%}
 }
