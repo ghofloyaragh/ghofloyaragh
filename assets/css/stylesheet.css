@@ -131,20 +131,26 @@ body{
 }
 
 #background-top span#title-desc{
-    font-size: 4rem ;
+    font-size: 3rem ;
+}
+
+#background-top span#animated-text{
+    font-size: 5.5rem ;
+    margin-bottom: 1rem;
 }
 
 #background-top span#phone-desc{
-    font-size: 3.5rem ;
+    font-size: 2.5rem ;
 }
 
 #background-top span#address-desc{
-    font-size: 3.5rem ;
+    font-size: 2.5rem ;
 }
 
 #background-top span{
-    font-size: 6rem;
+    font-size: 5rem;
     text-align: center;
+    font-weight: bold;
 }
 
 
@@ -202,6 +208,7 @@ body{
     #background-top span#title-desc{font-size: 1.5rem}
     #background-top span#phone-desc{font-size: 1rem}
     #background-top span#address-desc{font-size: 1rem}
+    #background-top span#animated-text{font-size: 2.5rem;margin-bottom: 0}
     #background-top{flex-direction: column}
     #front-image{max-width: 40%}
 }
