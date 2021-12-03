@@ -1,7 +1,7 @@
 data = [
     {
         "id": 1,
-        "src": "assets/images/1_hayati.png",
+        "src": "assets/images/webp/1_hayati.webp",
         "name": "قفل حیاطی",
         "city":"کرمان",
         "price-range": "55-120",
@@ -12,7 +12,7 @@ data = [
     },
     {
         "id": 2,
-        "src": "assets/images/1_makhfi.png",
+        "src": "assets/images/webp/1_makhfi.webp",
         "name": "قفل مخقی",
         "city":"کرمان",
         "price-range": "55-120",
@@ -22,7 +22,7 @@ data = [
             "<br>قیمت تا ۳۰۰ هزارتومان"
     }, {
         "id": 3,
-        "src": "assets/images/1_padlock.png",
+        "src": "assets/images/webp/1_padlock.webp",
         "name": "قفل کتابی",
         "city":"کرمان",
         "price-range": "55-120",
@@ -32,7 +32,7 @@ data = [
             "<br>بازه قیمتی ۱۰ تا ۵۰۰ هزارتومان"
     }, {
         "id": 4,
-        "src": "assets/images/1_ghofl.png",
+        "src": "assets/images/webp/1_ghofl.webp",
         "name": "قفل",
         "city":"کرمان",
         "price-range": "55-120",
@@ -43,7 +43,7 @@ data = [
     },
     {
         "id": 5,
-        "src": "assets/images/1_cylander.png",
+        "src": "assets/images/webp/1_cylander.webp",
         "name": "توپی",
         "city":"کرمان",
         "price-range": "55-120",
@@ -55,7 +55,7 @@ data = [
     },
     {
         "id": 6,
-        "src": "assets/images/1_handle.png",
+        "src": "assets/images/webp/1_handle.webp",
         "name": "دستگیره",
         "city":"کرمان",
         "price-range": "55-120",
@@ -66,7 +66,7 @@ data = [
     },
     {
         "id": 7,
-        "src": "assets/images/lola_cabinet.png",
+        "src": "assets/images/webp/lola_cabinet.webp",
         "name": "لولای کابینت",
         "city":"کرمان",
         "price-range": "55-120",
@@ -76,7 +76,7 @@ data = [
     },
     {
         "id": 8,
-        "src": "assets/images/screw.png",
+        "src": "assets/images/webp/screw.webp",
         "name": "پیچ",
         "city":"کرمان",
         "price-range": "55-120",
@@ -86,7 +86,7 @@ data = [
     },
     {
         "id": 9,
-        "src": "assets/images/lola.png",
+        "src": "assets/images/webp/lola.webp",
         "name": "لولا",
         "city":"کرمان",
         "price-range": "55-120",
@@ -97,7 +97,7 @@ data = [
     },
     {
         "id": 10,
-        "src": "assets/images/aramband.png",
+        "src": "assets/images/webp/aramband.webp",
         "name": "آرام‌بند درب",
         "city":"کرمان",
         "price-range": "55-120",
@@ -108,7 +108,7 @@ data = [
     },
     {
         "id": 11,
-        "src": "assets/images/reil.png",
+        "src": "assets/images/webp/reil.webp",
         "name": "ریل ساچمه‌ای",
         "city":"کرمان",
         "price-range": "55-120",
@@ -118,7 +118,7 @@ data = [
     },
     {
         "id": 11,
-        "src": "assets/images/cabinet_pull.png",
+        "src": "assets/images/webp/cabinet_pull.webp",
         "name": "دستگیره کابینت",
         "city":"کرمان",
         "price-range": "55-120",
